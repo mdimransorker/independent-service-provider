@@ -77,7 +77,7 @@ const LogIn = () => {
             </Form>
             {errorElement}
             <p className='mb-0'>Forget Password?<button onClick={handleResetPassword} style={{ paddingLeft: '1px' }} className='btn btn-link text-info text-decoration-none mb-1'>Reset Password</button></p>
-            <p>New to Reynolds? <Link to='/signup' className='text-decoration-none text-info'>Please Register</Link></p>
+            <p>New to Hermain Gym? <Link to='/signup' className='text-decoration-none text-info'>Please Register</Link></p>
             <ToastContainer />
         </div>
     );
